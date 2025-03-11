@@ -18,7 +18,7 @@ A simple yet powerful task management web application built with TypeScript, fea
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/your-username/task-manager-ts.git
+git clone https://github.com/abdelfadelAchraf/Task-Manager.git
 
 # 2. Navigate to project directory
 cd Task-Manager
