@@ -5,7 +5,6 @@ var tachesListe = document.getElementById('tachesListe');
 var messageErreur = document.getElementById('messageErreur');
 function ajouterTache() {
     var texte = tacheInput.value.trim();
-    // Validation de l'entrée
     if (!texte) {
         messageErreur.textContent = "Veuillez entrer une tâche valide.";
         messageErreur.style.display = "block";
@@ -17,17 +16,12 @@ function ajouterTache() {
     var li = document.createElement('li');
     var span = document.createElement('span');
     span.textContent = texte;
-    // Marquer comme terminé
-    span.addEventListener('click', function () {
-        span.classList.toggle('completed');
-    });
     // Bouton de suppression
     var supprimerBtn = document.createElement('button');
     supprimerBtn.textContent = 'Supprimer';
     supprimerBtn.addEventListener('click', function () {
         li.remove();
     });
-    // Assemblage des éléments
     li.append(span, supprimerBtn);
     tachesListe.appendChild(li);
     // Réinitialisation du champ

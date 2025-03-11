@@ -8,7 +8,6 @@ const messageErreur = document.getElementById('messageErreur') as HTMLDivElement
 function ajouterTache(): void {
     const texte = tacheInput.value.trim();
 
-    // Validation de l'entrée
     if (!texte) {
         messageErreur.textContent = "Veuillez entrer une tâche valide.";
         messageErreur.style.display = "block";
@@ -43,6 +42,8 @@ ajouterBtn.addEventListener('click', ajouterTache);
 tacheInput.addEventListener('keypress', (e: KeyboardEvent) => {
     if (e.key === 'Enter') ajouterTache();
 });
+
+
 
 
 
