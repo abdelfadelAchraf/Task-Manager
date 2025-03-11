@@ -23,11 +23,6 @@ function ajouterTache(): void {
     const span = document.createElement('span');
     span.textContent = texte;
     
-    // Marquer comme terminé
-    span.addEventListener('click', () => {
-        span.classList.toggle('completed');
-    });
-
     // Bouton de suppression
     const supprimerBtn = document.createElement('button');
     supprimerBtn.textContent = 'Supprimer';
@@ -35,7 +30,7 @@ function ajouterTache(): void {
         li.remove();
     });
 
-    // Assemblage des éléments
+    
     li.append(span, supprimerBtn);
     tachesListe.appendChild(li);
 
