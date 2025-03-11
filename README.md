@@ -40,7 +40,7 @@ open index.html
 
 | **Name**               | **Role**         | **GitHub Profile** |
 |--------------------|-------------|---------------|
-| Achraf Abdelfadel  | student    | [GitHub](https://github.com/yourprofile) |
-| Zakaria Ennaqui    | student    | [GitHub](https://github.com/teammateprofile) |
+| Achraf Abdelfadel  | student    | [GitHub](https://github.com/abdelfadelAchraf) |
+| Zakaria Ennaqui    | student    | [GitHub](https://github.com/ZIKENQ) |
 
 
