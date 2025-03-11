@@ -2,6 +2,9 @@
 
 ![Task Manager Preview](https://github.com/user-attachments/assets/5780cc50-14e1-4c34-a2b7-161f4fb557f0)
 
+![image](https://github.com/user-attachments/assets/69bd3e76-d135-4bc1-a766-af73542c51bd)
+
+
 A simple yet powerful task management web application built with TypeScript, featuring DOM manipulation and responsive design.
 
 ## ✨ Features
@@ -31,3 +34,13 @@ tsc index.ts -t ES6
 
 # 5. Open in browser
 open index.html
+```
+
+## 👥 Team Members
+
+| **Name**               | **Role**         | **GitHub Profile** |
+|--------------------|-------------|---------------|
+| Achraf Abdelfadel  | student    | [GitHub](https://github.com/yourprofile) |
+| Zakaria Ennaqui    | student    | [GitHub](https://github.com/teammateprofile) |
+
+
